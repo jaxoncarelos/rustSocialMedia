@@ -1,8 +1,8 @@
 use std::io;
-pub mod signin;
-pub mod signup;
-pub mod mainMenu;
-pub mod user;
+mod signin;
+mod signup;
+mod mainMenu;
+mod user;
 pub fn run()
 {
     println!("Hello user.");
